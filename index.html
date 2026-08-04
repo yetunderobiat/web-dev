@@ -10,21 +10,29 @@
     </head>
 
     <body>
-        <h1>My Goals for the year</h1>
-        
+        <header>
+            <h1>My Goals for the year</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="#html">Learning HTML</a></li>
+                    <li><a href="#vacation">Planning a Vacation</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <hr>
 
-        <ul>
-            <li><a href="#html">Learning HTML</a></li>
-            <li><a href="#vacation">Planning a Vacation</a></li>
-        </ul>
+        <main>
 
-        <hr>
-
-        <section id="html">
-            <h2>Im ready to learn HTML</h2>
-            <p>This is my first web page.</p>
-            <img src="img/html.png" alt="HTML5 LOGO" width="300" height="300">
+            <article id="html">
+                <h2>Im ready to learn HTML</h2>
+                <p>This is my first web page.</p>
+            <figure>
+                <img src="img/html.png" alt="HTML5 LOGO" width="300" height="300">
+                <figcaption>An example of HTML 5 code</figcaption>
+                <code> &lt;h1&gt; Hello World &lt;/h1&gt; </code>
+            </figure>
     
             <h3>My daily schedule</h3> 
             <p>Let me tell you how:</p>
@@ -33,14 +41,14 @@
                 <li>......i plan out my schedule</li>
                 <li>......i use resources from <abbr title="Mozilla Developer Network"> <a href="https://developer.mozilla.org/en-US/">MDN</a></abbr>.</li>
             </ol>
-        </section>
+        </article>
         <hr>
 
-        <section id="Vacation">
+        <article id="Vacation">
             <h2>I am also planning a vacation</h2>
             <p>i have been working hard and <em>i really need a get away</em></p>
             <p>i live in <abbr title="Kansas">KS</abbr> so i want to visit a beach</p>
-    
+            
             <h3>Places I`d like to visit</h3>
             <ul>
                 <li>
@@ -58,10 +66,13 @@
                         123 Main Street<br>
                         Anytown, USA 12345
                     </address>
-                    <img src="img/beach.png" alt="Cancun Vacation" width="">
+                    <figure>
+                        <img src="img/beach.png" alt="Cancun Vacation" width="400" height="267">
+                        <figcaption>A Carribean vacation image</figcaption>
+                    </figure>
                 </li>
             </ul>
-    
+            
             <!-- TODO: Add more places -->
             <h3>Places i want to avoid</h3>
             <dl>
@@ -74,15 +85,15 @@
                 <dt>Mountain Tops</dt>
                 <dd>These are also cold</dd>
             </dl>
-        </section>
-        <hr>
+        </article>
+    </main>
 
-        &lt;&lt;&lt; &copy;<a href="about.html">Robiat Yetunde</a>  &gt;&gt;&gt;
-        <p>
-            <a href="#">Back to top</a>
-        </p>
-        <p>
-            <a href="/">Back to home</a>
-        </p>
+        <hr>    
+
+        <footer>
+           <p> &lt;&lt;&lt; &copy;<a href="about.html">Robiat Yetunde</a>  &gt;&gt;&gt;</p>
+            <p><a href="#">Back to top</a></p>
+            <p><a href="/">Back to home</a></p>
+        </footer>
     </body>
 </html>
