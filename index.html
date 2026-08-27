@@ -92,8 +92,29 @@
                 <p>I`d really like to hear from you!</p>
 
                 <form action="https://httpbin.org./get">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" name="firstname" id="firstname" placeholder="Robiat">
+                    <p>
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Robiat" autocomplete="on" required >
+                    </p>
+                    <p>
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Ibrahim" autocomplete="on" required >
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="password" required >
+                    </p> 
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="222222222" autocomplete="on" required  >
+                    </p>
+                    <p>
+                        <label for="choice">Favorite coffe</label>
+                        <option value="regular coffee">Regular Coffee</option>
+                        <option value="iced coffee">Iced coffee</option>
+                    </p>
+
+                    
                 </form> 
 
             </article>
